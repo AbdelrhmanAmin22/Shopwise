@@ -1,0 +1,23 @@
+.mobileNav {
+    background-color: #ffffff;
+    position: fixed;
+    width: 280px;
+    height: 100vh;
+    top: 67px;
+    left: 0;
+    z-index: 1100;
+    border-right: 6px solid #ff324d;
+
+}
+
+.mobileNavContainer {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 28px;
+}
+
+.mobileNavShow {
+    background-color: bisque;
+}

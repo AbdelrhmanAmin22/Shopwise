@@ -1,0 +1,59 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px; 
+    height: 600px;
+    margin: auto;
+}
+
+.left {
+    width: 100%; 
+}
+
+.lefth2 {
+    font-size: 36px; 
+}
+
+.right {
+    width: 100%; 
+}
+
+.right img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Media queries */
+@media screen and (min-width: 600px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 20px; /* Adjust padding as needed */
+    }
+}
+
+/* Media queries for large screens */
+@media screen and (min-width: 1000px) {
+    .lefth2 {
+        font-size: 70px;
+    }
+
+    .box {
+        padding: 50px 200px;
+    }
+}
+
+/* Additional styling for different backgrounds */
+.one {
+    background-color: #d6f6f1;
+}
+
+.two {
+    background-color: #f8e5d7;
+}
+
+.three {
+    background-color: #fdebd7;
+}
