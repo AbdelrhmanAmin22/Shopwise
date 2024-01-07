@@ -1,0 +1,51 @@
+.optionBox {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 40px;
+    border: .5px solid #989697;
+    height: 130px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #ff324d;
+}
+
+.title1 {
+    font-size: 20px;
+}
+
+.title2 {
+    color: #989697;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .optionBox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    .title1 {
+        font-size: 18px;
+    }
+
+    .title2 {
+        font-size: 14px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}

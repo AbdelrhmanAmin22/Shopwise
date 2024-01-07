@@ -1,0 +1,235 @@
+footer {
+    width: 100%;
+    background-color: #202325;
+    color: #ffff;
+    padding: 40px 0;
+}
+
+.containerLinks {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.linksone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links ul li {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.links ul li:hover {
+    color: #ff324d;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.links svg {
+    margin-right: 5px;
+}
+.links h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #ffff;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .containerLinks {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .containerLinks {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containerLinks {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+}
+
+.bottomFooter {
+    width: 100%;
+    background-color: #202325;
+    color: #ffff;
+    padding: 20px 0;
+}
+
+.bottomFooter .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomFooter p {
+    margin: 0;
+}
+
+.bottomFooter img {
+    width: 50px; 
+    margin-right: 10px; 
+}
+
+@media screen and (max-width: 768px) {
+    .bottomFooter .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .bottomFooter .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bottomFooter img {
+        margin-bottom: 10px; 
+    }
+}
+.linksInput {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ff324d;
+}
+.linksInput input {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.social1 {
+    background-color: #3b5998;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social2{
+    background-color: #00acee;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social3{
+    background-color: #ec604b ;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social4{
+    background-color: #c4302b ;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social5{
+    background-color: #3f729b  ;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social1:hover {
+    background-color: #293c63;
+}
+.social2:hover{
+    background-color: #008bc2;
+}
+.social3:hover{
+    background-color: #f9553c ;
+}
+.social4:hover{
+    background-color: #bf1c17 ;
+}
+.social5:hover{
+    background-color: #28618f  ;
+}

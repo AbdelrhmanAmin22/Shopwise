@@ -1,0 +1,20 @@
+.myHeader {
+    padding: 10px 0px;
+}
+.myHeaderContainer {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.myFixedHeader{
+    border-bottom: 3px solid #ff324d;
+    background-color: #fff;
+    width: 100%;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 999;
+}

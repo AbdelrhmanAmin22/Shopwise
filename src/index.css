@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.myFlex {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap ;
+}
+.flexCC {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap ;
+  justify-content: center;
+  align-items: center;
+}
+.gap{
+  gap: 20px;
+}
+.p20 {
+  padding: 20px 0;
+}
