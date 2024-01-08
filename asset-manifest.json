@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Shopwise/static/css/main.7ae1a8c5.css",
+    "main.js": "/Shopwise/static/js/main.9dc18f6b.js",
+    "static/js/787.866a9283.chunk.js": "/Shopwise/static/js/787.866a9283.chunk.js",
+    "static/media/shop_banner_img2.jpg": "/Shopwise/static/media/shop_banner_img2.1dd1dea543e2c4031a36.jpg",
+    "static/media/3.png": "/Shopwise/static/media/3.f05465865a1e09ccc6b8.png",
+    "static/media/1.png": "/Shopwise/static/media/1.d8d48e6271ac200a42e1.png",
+    "static/media/shop_banner_img1.jpg": "/Shopwise/static/media/shop_banner_img1.0796739783ef58ed1488.jpg",
+    "static/media/2.png": "/Shopwise/static/media/2.59abac3c7ca73ed7d485.png",
+    "index.html": "/Shopwise/index.html",
+    "main.7ae1a8c5.css.map": "/Shopwise/static/css/main.7ae1a8c5.css.map",
+    "main.9dc18f6b.js.map": "/Shopwise/static/js/main.9dc18f6b.js.map",
+    "787.866a9283.chunk.js.map": "/Shopwise/static/js/787.866a9283.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ae1a8c5.css",
+    "static/js/main.9dc18f6b.js"
+  ]
+}
